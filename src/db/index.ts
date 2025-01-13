@@ -1,4 +1,3 @@
-import { drizzle } from "drizzle-orm/vercel-postgres";
-import * as schema from "./schema";
+import { db } from "../../drizzle.server";
 
-export const db = drizzle({ schema });
+export { db };

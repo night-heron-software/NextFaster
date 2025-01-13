@@ -1,5 +1,5 @@
 import { Link } from "@/components/ui/link";
-import { db } from "@/db";
+import { db } from "../../../../drizzle.server";
 import { collections } from "@/db/schema";
 import { getCollectionDetails } from "@/lib/queries";
 

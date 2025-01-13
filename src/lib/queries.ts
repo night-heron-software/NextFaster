@@ -7,7 +7,7 @@ import {
   subcollections,
   users,
 } from "@/db/schema";
-import { db } from "@/db";
+import { db } from "../../drizzle.server";
 import { eq, and, count } from "drizzle-orm";
 import { unstable_cache } from "./unstable-cache";
 import { sql } from "drizzle-orm";
